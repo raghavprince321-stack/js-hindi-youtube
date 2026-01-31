@@ -1,0 +1,94 @@
+/*
+let Score = "33"
+
+console.log(typeof Score);
+console.log(typeof (Score));
+
+let valueInNumber = Number(Score)
+
+console.log(typeof valueInNumber);
+console.log(valueInNumber)
+*/
+
+
+/*
+let Score = "33abc"
+
+console.log(typeof Score);
+console.log(typeof (Score));
+
+let valueInNumber = Number(Score)
+
+console.log(typeof valueInNumber);
+console.log(valueInNumber);
+*/
+
+/*
+let Score = null
+
+console.log(typeof Score);
+console.log(typeof (Score));
+
+let valueInNumber = Number(Score)
+
+console.log(typeof valueInNumber);
+console.log(valueInNumber);
+*/
+
+/*
+let Score = undefined
+
+console.log(typeof Score);
+console.log(typeof (Score));
+
+let valueInNumber = Number(Score)
+
+console.log(typeof valueInNumber);
+console.log(valueInNumber);
+// NAN = not a number
+*/
+
+/*
+let Score = false
+
+console.log(typeof Score);
+console.log(typeof (Score));
+
+let valueInNumber = Number(Score)
+
+console.log(typeof valueInNumber);
+console.log(valueInNumber);
+*/
+
+// "33" => 33
+// "33abc" => NaN
+// "true" => 1
+/*
+let isLoggedIn = 1
+let booleanIsLoggenIn = Boolean(isLoggedIn)
+
+console.log(booleanIsLoggenIn);
+*/ 
+
+/*
+let isLoggedIn = ""
+let booleanIsLoggenIn = Boolean(isLoggedIn)
+
+console.log(booleanIsLoggenIn);
+*/
+/*
+let isLoggedIn = "Prince"
+let booleanIsLoggenIn = Boolean(isLoggedIn)
+
+console.log(booleanIsLoggenIn);
+*/
+
+let somenumber = 21
+let stringsomenumber = String(somenumber)
+
+console.log(stringsomenumber);
+console.log(typeof stringsomenumber);
+
+
+
+
