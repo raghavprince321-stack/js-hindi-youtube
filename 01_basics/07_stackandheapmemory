@@ -1,0 +1,23 @@
+// stack( primitive ) , heap ( non-primitive )
+
+/*
+let myYoutubename = "viralshorts.com"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+console.log(myYoutubename); // viralshorts.com
+console.log(anothername); // chaiaurcode
+*/
+
+/*
+let userone = {
+    email : "user@gmail.com",
+    upi : "user@ybl"
+}
+
+let usertwo = userone
+usertwo.email = "prince@gmail.com"
+
+console.log(userone.email); // prince@gmail.com
+console.log(usertwo.email); // prince@gmail.com
+*/
