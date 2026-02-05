@@ -1,0 +1,42 @@
+
+// two types datatypes
+/*
+1- primitive datatypes
+7 types
+String , Number , Boolean , null , undefined , Symbol , BigInt
+
+const score = 100 // Number
+const score = 100.3 // Number
+
+const isLoggedIn = false // Boolean
+const outsideTemp = null //object
+let userEmail; // undefined
+
+const id = Symbol('123')
+const anotherid = Symbol('123')
+console.log(id === anotherid); // false
+
+const bigNumber = 34556789273647832n // n show this number BigInt
+console.log(typeof bigNumber); // bigint 
+
+*/
+
+/*
+2- reference (non primitive) datatypes
+Array , Objects , Functions
+
+const heroes = ["shaktiman","naagraj","doga"]; // Array
+let myObj = {
+    name : "prince",
+    age : 20
+
+}
+
+const myFunction = function(){
+    console.log("Hello World");
+}
+
+console.log(typeof heroes); // object
+console.log(typeof myObj ); // object
+console.log(typeof myFunction); // function
+*/
