@@ -1,0 +1,49 @@
+/*
+function calculatecartprice(num1){
+    return num1;
+}
+
+console.log(calculatecartprice(100,200,300)); // 100
+*/
+
+/*
+function calculatecartprice(...num1){
+    return num1;
+}
+console.log(calculatecartprice(100,200,300)); // [ 100, 200, 300 ]
+*/
+
+/*
+function calculatecartprice(value1,value2,...num1){
+    return num1
+}
+console.log(calculatecartprice(100,200,300,400,500,600));   // [ 300, 400, 500, 600 ] 
+*/
+/*
+const user = {
+    username: "prince",
+    price: 199
+}
+
+function handleobject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price} `);
+}
+//handleobject(user);
+// username is prince and price is 199 
+handleobject({
+    username:"raghav",
+    price: 399
+})
+// username is raghav and price is 399 
+*/
+// aray pass
+
+const mynewArray = [100, 200, 300, 400, 500];
+
+function returnsecondvalue(getArray){
+    return getArray[1];
+}
+console.log(returnsecondvalue(mynewArray)); // 200
+console.log(returnsecondvalue([100,400,500,900])); // 400
+
+
